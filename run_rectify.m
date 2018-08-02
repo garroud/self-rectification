@@ -1,5 +1,5 @@
 addpath('vlfeat-0.9.21/toolbox/');
-addpath('ComputerVisionToolkit/ComputerVisionToolkit/m-files');
+addpath('ComputerVisionToolkit/m-files');
 %Scipt run the rectification.
 master_image_name = 'test_data/image0_s.png';
 slave_image_name = 'test_data/image1_s.png';
