@@ -1,0 +1,43 @@
+Computer Vision Toolkit (CVT)
+
+by Andrea Fusiello, 2018
+
+This toolkit is a collection of Matlab function implementing
+several Computer Vision algorithms.
+
+
+SETUP: cd to the main directory of CVT, where the file
+cvt_setup.m is and run: "cvt_setup". This will add the relevant
+folders to the search path.
+
+The main directory containing the relevant function is "m-files".
+Its content will be displayed by "cvt_setup".
+
+This code runs indifferently on Octave and Matlab. It has been
+tested on Octave 4.2.1 and Matlab R2017a. It does not have any
+external dependency on toolboxes or packages.
+
+The "test" directory contains scripts that test (mostly) all the
+functions in the toolkit.  After setup cd to "test" and
+run "testAll". This will call all the test scripts report
+coverage.
+
+The "m-files/aux" directory contains auxiliary, helper functions. 
+
+The "thirdparty" directory contains auxiliary, helper functions
+from other authors, in which case the respective copyright
+notices apply.
+
+The directory "cherubino12" contains 12 JPEG images of a statue,
+together with camera matrices (.pm) and masks (.png) (curtesy of
+3Dflow srl).  They are used in the testIMG ad testCARVE scripts.
+
+The functions in this toolkit are described in the book:
+
+	Fusiello, A. "Visione computazionale. Tecniche di
+	ricostruzione tridimensionale."  Franco Angeli, Milano,
+	2018, 2a ed.
+
+Unfortunately the book is written in italian, although the
+functions are documented in english.
+
