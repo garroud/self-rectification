@@ -7,13 +7,19 @@ If you are using our algorithm in your work, please consider cite:
 * ComputerVisionToolkit writen by [Professor  A. Fusiello](http://www.diegm.uniud.it/fusiello/), download avaliable at [Download](http://www.diegm.uniud.it/fusiello/sw/ComputerVisionToolkit.zip)
 * VLFeat 0.9.21 released, download avaliabe at [Download](http://www.vlfeat.org/download/vlfeat-0.9.21-bin.tar.gz)
 ## Usage
-1. Download the ComputerVisionToolkit and VLFeat and unzip the files into `self-rectification/` directory
-2. To run the self-rectification, execute `run_rectify.m`. 
+1. Download the ComputerVisionToolkit and VLFeat and extract the two directory `ComputerVisionToolKit/` and `vlfeat-0.9.21` into `self-rectification/` directory;
+2. To run the self-rectification, execute `run_rectify.m`.
 ## Example results
 some image pairs are provided for test purpose.
 <figure>
  <img src="https://github.com/garroud/self-rectification/blob/master/test_data/image0_s.png" align=left width="350"> 
  <img src="https://github.com/garroud/self-rectification/blob/master/test_data/image1_s.png" align=center width="350">
-<em>&nbsp;&nbsp;master image&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slave image</em>
+ <em>master image(left) and right image(right)</em>
 </figure>
+
 After self-rectification, The result is
+<figure>
+ <img src="https://github.com/garroud/self-rectification/blob/master/test_data/image0_s.png" align=left width="350"> 
+ <img src="https://github.com/garroud/self-rectification/blob/master/test_data/image1_s.png" align=center width="350">
+ <em>Rectified master image(left) and slave image(right), notice that our algorithm makes no transfomration on master image.</em>
+</figure>
