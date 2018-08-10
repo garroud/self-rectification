@@ -4,7 +4,7 @@ This repo is the MATLAB implementation code for the paper "DSR: Direct Self-rect
 ## Acknowledgement
 * The statistics reported in the paper is implemented by C++ and opencv, which may not be consistent with the one in matlab. 
 * Unlike in the paper, we use SIFT feature matcher implemented by  Professor [A. Fusiello](http://www.diegm.uniud.it/fusiello/), Some modification is made to support MATLAB 2015B. We thank Professor Fusiello for his code. 
-* If you have any further question regarding to the paper, you may contact me at  `xiaoruichao@gmail.com`.
+* If you have any further question regarding to the paper, you may contact me at  `xiaoruichao at gmail.com`.
 
 If you find our algorithm helpful in your work, please consider cite:
 
