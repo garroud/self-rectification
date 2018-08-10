@@ -45,7 +45,13 @@ fprintf('recification PAP: 1px: %f, 2px: %f, 3px: %f, NVD error: %f \n', px1r, p
 
 %%%Display Images
 H1 = eye(3);
-[master_image_t, slave_image_t ,~] = imrectify(master_image, slave_image, H1, H2, 'crop');  
+if size(I1, 3) == 3
+   [I1r,I2r, bb1, bb2] = imrectify(I1(:,:,1),I2(:,:,1),H1,H2,'crop');
+   [I1r(:,:,2), I2r(:,:,2), ~] = imrectify(I1(:,:,2),I2(:,:,2),H1,H2,'crop');
+   [I1r(:,:,3), I2r(:,:,3), ~] = imrectify(I1(:,:,3),I2(:,:,3),H1,H2,'crop');
+else
+   [I1r,I2r, bb1, bb2] = imrectify(I1(:,:,1),I2(:,:,1),H1,H2,'crop');
+end
 figure;imshow(master_image_t,[]);
 figure;imshow(slave_image_t, []);
 imwrite(uint8(master_image_t), 'rec_img0.png');
