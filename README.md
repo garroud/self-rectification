@@ -7,6 +7,14 @@ This repo is the MATLAB implementation code for the paper "DSR: Direct Self-rect
 * If you have any further question regarding to the paper, you may contact me at  `xiaoruichao at gmail.com`.
 
 If you find our algorithm helpful in your work, please consider cite:
+```
+@article{3DV2018DSRxiao,
+  title={DSR: Direct Self-rectification for Uncalibrated Dual-lens Cameras},
+  author={Xiao, Ruichao and Sun, Wenxiu and Pang, Jiahao and Yan, Qiong and Ren, Jimmy},
+  journal={3Dv},
+  year={2018}
+}
+```
 
 ## Dependency
 * MATLAB 2015B on or above (The code is tested on MATLAB2015B);
