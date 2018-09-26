@@ -11,7 +11,7 @@ If you find our algorithm helpful in your work, please consider cite:
 @article{3DV2018DSRxiao,
   title={DSR: Direct Self-rectification for Uncalibrated Dual-lens Cameras},
   author={Xiao, Ruichao and Sun, Wenxiu and Pang, Jiahao and Yan, Qiong and Ren, Jimmy},
-  journal={3Dv},
+  journal={3DV},
   year={2018}
 }
 ```
